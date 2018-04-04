@@ -10,6 +10,11 @@ header {
   align-items: center;
   border-bottom: 1px solid;
   padding: 10px 30px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  opacity: 1.0;
+  background-color: white;
 }
 
 .logo {
@@ -22,6 +27,7 @@ ul {
   display: inline-flex;;
   flex-grow: 2;
   justify-content: flex-end;
+  margin-right: 60px;
 }
 
 li {
@@ -31,4 +37,56 @@ li {
 
 a {
   color: black;
+}
+
+div {
+  border: 1px solid;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 81px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 60px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.spacer {
+  flex: 1 1 0;
+}
+
+.image {
+}
+
+.story {
+}
+
+.mainstory {
+}
+
+h3 {
+  margin: 20px 0px;
+}
+
+p {
+  margin: 15px 0px;
 }
