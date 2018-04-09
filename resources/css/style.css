@@ -40,7 +40,7 @@ a {
 }
 
 div {
-  border: 1px solid;
+
 }
 
 .content {
@@ -90,21 +90,32 @@ div {
 .story1 {
   background-image: url("../images/img-story-1.png");
   height: 300px;
+  margin: 20px auto;
 }
 
 .story2 {
   background-image: url("../images/img-story-2.png");
   height: 300px;
+  width: 299px;
 }
 
 .story3 {
   background-image: url("../images/img-story-3.png");
   height: 300px;
+  width: 299px;
 }
 
 .newsbite {
   background-image: url("../images/img-news-bite.png");
   height: 240px;
+}
+
+.newsbitestory {
+  background-color: whitesmoke;
+  color: dimgray;
+  border-bottom: black 1px solid;
+  font-size: 12px;
+  padding: 3px 20px;
 }
 
 h1 {
@@ -113,12 +124,51 @@ h1 {
 
 h2 {
   font-size: 30px;
+  text-align: center;
 }
 
 h3 {
   margin: 20px 0px;
 }
 
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0px;
+}
+
 p {
   margin: 15px 0px;
+}
+
+.footer {
+  position: relative;
+  top: 81px;
+  padding: 100px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+
+.rowelement {
+  width: 299px;
+}
+
+.footerlogo {
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px 10px;
 }
